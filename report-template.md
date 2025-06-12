@@ -29,11 +29,11 @@ If I had more time, I would explore ensembling external models and integrating a
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
-![model_train_score.png](img/model_train_score.png)
+![model_train_score.png](project/img/model_train_score.png)
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
-![model_test_score.png](img/model_test_score.png)
+![model_test_score.png](project/img/model_test_score.png)
 
 ## Summary
 TIn this project, I used AutoGluon to build and improve a model to predict bike rental demand. I started with basic training, then improved the model using feature engineering and hyperparameter tuning. Each stage led to incremental improvements in RMSE. If given more time, I would incorporate additional datasets and investigate model explanations to make the predictions more transparent.
