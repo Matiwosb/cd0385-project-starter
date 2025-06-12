@@ -25,23 +25,15 @@ After tuning hyperparameters with AutoGluon (using hyperparameter_tune_kwargs='a
 If I had more time, I would explore ensembling external models and integrating additional external data sources such as weather APIs. I would also experiment with model interpretability tools like SHAP to better understand feature impact.
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
-|model|hpo1|hpo2|hpo3|score|
-|--|--|--|--|--|
-|initial|?|?|?|?|
-|add_features|?|?|?|?|
-|hpo|?|?|?|?|
+![alt text](image.png)
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
-
-TODO: Replace the image below with your own.
 
 ![model_train_score.png](img/model_train_score.png)
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
-TODO: Replace the image below with your own.
-
 ![model_test_score.png](img/model_test_score.png)
 
 ## Summary
-TODO: Add your explanation
+TIn this project, I used AutoGluon to build and improve a model to predict bike rental demand. I started with basic training, then improved the model using feature engineering and hyperparameter tuning. Each stage led to incremental improvements in RMSE. If given more time, I would incorporate additional datasets and investigate model explanations to make the predictions more transparent.
